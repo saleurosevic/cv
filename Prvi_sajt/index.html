@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sale</title>
+</head>
+<body>       <!-- umesto ove putanje sa naseg kompa mozemo staviti neku adresu sa interneta - copy image adress -->
+    <table>
+        <tr>
+            <td><img src="slike/sale.jpg" alt="sale" height="150" width="120">  <!--ovo alt je da stavimo tekst koji ce opisati ovu nasu sliku, za seckanje slika i menjanje izgleda mozemo koristiti https://crop-circle.imageonline.co/ --></td>
+            <td><h1>Aleksandar Urosevic</h1> 
+                <p>Ucenik sam <em><a href="https://www.etf.bg.ac.rs/">Elektrotehnickog fakulteta</a></em></p>  
+                <!-- ovo a nam je za linkove, href="link" na koji zelimo da odemo klikom na ovaj tekst moze da bude link ili do neke stranice na internetu ili do neke nase stranice -->
+                <!-- razlika izmedju <em> i <i> je u tome da em istice tekst a i samo iskrivljuje, ovo strong je za bold -->
+                <p>Na smeru sam racunarska tehnika i informatika i najvise me zanima web development</p></td>
+        </tr>
+    </table>
+    <hr>
+    <!--sada pravimo liste i liste uvek mozemo da ugnjezdavamo-->
+    <h3>Kursevi</h3>
+    <ul> <!--unorder list-->
+        <li>Udemy kurs Angela Yu - Web development</li>
+        <li>John Allwork - C#</li>
+    </ul>
+
+    <hr>
+
+    <h3>Skolovanje</h3> <!--ovo thead i tbody skoro nikad necu pisati ovde sam stavio samo da vidim da postoji -->
+    <table cellspacing="10">
+        <thead>
+            <tr>
+                <th>Godine</th> <!--u ove th stavljamo naslove nasih kolona, ali ovo mozemo smestiti u poseban odeljak thead ovo radimo zbog css najvise da bi tako lepse uredili-->
+                <th>Ustanove</th>
+            </tr>
+        </thead>
+        <!-- <tr>
+            <th>Godine</th> <!-u ove th stavljamo naslove nasih kolona, ali ovo mozemo smestiti u poseban odeljak thead ovo radimo zbog css najvise da bi tako lepse uredili--
+            <th>Ustanove</th>
+        </tr> -->
+        <tbody>
+            <tr>
+                <td>2007-2015</td>
+                <td>Osnovna skola Doktorr Dragisa Misovic</td>
+            </tr>
+            <tr>
+                <td>2015-2019</td>
+                <td>Gimnazija u Cacku</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>Elektrotehnicki fakultet u Beogradu</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    
+    <!--Pravimo UGNJEZDENU TABELU gde nam je u td smestena jedna cela tabela, da bi dobili 2 kolone kao one -->
+    <!-- <h3>Vestine</h3>
+
+    <table cellspacing="10">
+        <tr>
+            <td> 
+                <table>
+                    <tr>  
+                        <td>Web Development </td>
+                        <td>⭐⭐</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>    
+                        <td>Lol</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        
+            <td>
+                <table>
+                    <tr>  
+                        <td>Python </td>
+                        <td>⭐</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>    
+                        <td>Fifa</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table> -->
+
+    <!-- ipak zelimo samo jednu kolonu -->
+    <table>
+        <tr>  
+            <td>Web Development </td>
+            <td>⭐⭐</td>
+            
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>⭐⭐</td>
+        </tr>
+        <tr>    
+            <td>Lol</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+
+
+
+    <hr>
+    <a href="hobi.html">Moji hobiji</a>  <a href="kontakt.html">Kontaktiraj me</a>
+    <!-- <h3>Moja order lista</h3>
+    <ol type="a"> order list, u okviru taga ol biramo tip kojim obelezavamo ove stavke dal je to 1,2,3,... ili a,b,c,... ili nesto drugo
+        <li>stavka 1</li>
+        <li>stavka 2</li>
+        <li>stavka 3</li>
+    </ol> -->
+</body>
+</html>

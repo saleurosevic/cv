@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+</head>
+<body>
+    <h1>Moj kontakt</h1>
+    <p>Ulica 420 broj 19</p>
+    <p>066/426-512</p>
+    <p>saleurosevic00@gmail.com</p>
+
+    <hr>
+
+    <!-- zelimo da napravimo formu da moze neki korisnik da nam se javi -->
+    <!-- pravimo formu za automatsko slanje mejla -->
+    <!-- class brisemo, text/plain da nam za poruku ne salje ono name pa procente i slicno -->
+    <form action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain"> <!--action nam govori sta radimo kada kliknemo submit - u koju stranicu idemo-->
+                                                                            <!--mailto:mail - salje poruku na ovaj mail i prenose se uneti podaci valjda - ali moramo imati instaliranu mejl aplikaciju ili da stavimo da nam neka email aplikacija bude defaultna npr gmail-->
+        <label>Vase ime: </label>
+        <input type="text" name="yourName" value=""> <!-- input box -->
+        <br>
+
+        <!-- <input type="color" name="" value=""> izbor boje -->
+        <!-- <label>Zelite li da se prijavite na email listu?</label>
+        <input type="checkbox" name="" value="">
+        <br> -->
+
+        <label>Vas email: </label>
+        <input type="email" name="yourEmail" value="">
+        <br>
+
+        <label>Vasa poruka: </label>
+        <br>
+        <textarea name="yourMessage" cols="30" rows="10"></textarea>
+        <br>
+
+        <!-- <label>Password:</label>
+        <input type="password" name="" value="">
+        <br> -->
+
+        <input type="submit" name="">
+
+
+        <!-- <input type="file" name="" value="">
+        <input type="date" name="" value="">
+        <input type="radio" name="" value="">
+        <input type="range" name="" value="">
+        <input type="submit" name=""> submit button -->
+        <!-- u MDN dokumentaciji imamo sve input elemente -->
+    </form>
+</body>
+</html>
